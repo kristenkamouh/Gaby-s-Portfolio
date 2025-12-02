@@ -22,22 +22,22 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "The big 5 Test",
-      description: "baaden",
+      title: "The Big 5 Test",
+      description: "A personality assessment project analyzing the five major dimensions of human personality to understand behavioral patterns and individual differences.",
       category: "Strategy",
       image: big5Image,
       type: "image",
     },
     {
-      title: "Visual learning",
-      description: "",
+      title: "Visual Learning",
+      description: "An educational project exploring visual learning techniques and their impact on knowledge retention and comprehension.",
       category: "Operations",
       image: visualLearningImage,
       type: "image",
     },
     {
-      title: "communication skills (souad)",
-      description: "",
+      title: "Communication Skills",
+      description: "A comprehensive study on effective communication strategies and interpersonal skills development in professional settings.",
       category: "Leadership",
       image: communicationImage,
       type: "image",
