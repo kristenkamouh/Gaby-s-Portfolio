@@ -1,73 +1,107 @@
-# Welcome to your Lovable project
+# Gaby Al Halaby - Portfolio
 
-## Project info
+A modern, professional portfolio website showcasing international business management expertise, leadership experience, and academic projects.
 
-**URL**: https://lovable.dev/projects/c6039f6e-83d9-44f6-9ad8-02fca139faa6
+## About
 
-## How can I edit this code?
+This portfolio belongs to Gaby Al Halaby, a 22-year-old undergraduate student at Notre Dame University – Louaize in Lebanon, studying International Business Management. The portfolio highlights leadership experience, academic projects, and core competencies in business strategy, problem-solving, and team management.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- **Responsive Design**: Fully responsive layout optimized for all devices
+- **Animated Components**: Smooth animations using Framer Motion
+- **Interactive Project Gallery**: Modal-based project details with support for images, text content, and downloadable files
+- **Modern UI**: Built with shadcn/ui components and Tailwind CSS
+- **Particle Background**: Dynamic particle effects on the hero section
+- **Smooth Scrolling**: Seamless navigation between sections
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c6039f6e-83d9-44f6-9ad8-02fca139faa6) and start prompting.
+## Technologies Used
 
-Changes made via Lovable will be committed automatically to this repo.
+- **React** - Frontend framework
+- **TypeScript** - Type-safe JavaScript
+- **Vite** - Fast build tool and development server
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - High-quality UI components
+- **Framer Motion** - Animation library
+- **Lucide React** - Icon library
+- **React TSParticles** - Particle effects
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js (v16 or higher)
+- npm or bun package manager
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd portfolio
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Install dependencies:
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Project Structure
 
-**Use GitHub Codespaces**
+```
+src/
+├── components/        # React components
+│   ├── About.tsx
+│   ├── Contact.tsx
+│   ├── Experience.tsx
+│   ├── Hero.tsx
+│   ├── Navigation.tsx
+│   ├── Projects.tsx
+│   ├── Skills.tsx
+│   └── ui/           # shadcn/ui components
+├── assets/           # Images and static files
+├── lib/              # Utility functions
+├── hooks/            # Custom React hooks
+└── pages/            # Page components
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
 
-## What technologies are used for this project?
+## Sections
 
-This project is built with:
+- **Hero**: Introduction with particle background effect
+- **About**: Personal background and career objectives
+- **Experience**: Leadership roles and professional experience
+- **Skills**: Core competencies organized by category
+- **Projects**: Academic and professional projects with detailed views
+- **Contact**: Get in touch section with contact information
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Building for Production
 
-## How can I deploy this project?
+```bash
+npm run build
+```
 
-Simply open [Lovable](https://lovable.dev/projects/c6039f6e-83d9-44f6-9ad8-02fca139faa6) and click on Share -> Publish.
+The production-ready files will be generated in the `dist` folder.
 
-## Can I connect a custom domain to my Lovable project?
+## Deployment
 
-Yes, you can!
+This project can be deployed to any static hosting service:
+- Vercel
+- Netlify
+- GitHub Pages
+- Any other static hosting provider
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+© 2025 Gaby Al Halaby. All rights reserved.
+
+## Contact
+
+For inquiries or collaboration opportunities, please use the contact form on the website.
