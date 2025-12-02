@@ -11,26 +11,26 @@ const Experience = () => {
     {
       title: "President – NDU Music Club",
       company: "Notre Dame University",
-      period: "Elected Twice",
+      period: "2024 - 2026",
       description: "I was elected twice as President of the NDU Music Club, where I managed members, organized events, led committees, and coordinated tasks across teams. This role strengthened my leadership, planning, and decision skills in a large club environment.",
     },
     {
       title: "Founder – Auditorios",
       company: "Lebanese Fusion-Instrumental Band",
-      period: "Present",
+      period: "2023 - Present",
       description: "I founded the Lebanese fusion-instrumental band Auditorios, where I designed the vision, guided creative direction, and structured team roles for growth. It shows my ability to build ideas, lead teams, and manage long-term development.",
+    },
+    {
+      title: "Civil Defence Volunteer",
+      company: "Civil Defence",
+      period: "2023 - 2024",
+      description: "I served with the Civil Defence, working in emergency response, public safety, and field teamwork. It shows discipline, courage, and the ability to stay composed in critical situations.",
     },
     {
       title: "Piano Teacher",
       company: "Private Tutoring",
       period: "2021 - 2022",
       description: "From 2021 to 2022, I taught piano to students, creating lesson plans and simplifying music theory for learning. This period built my communication, patience, and teaching structure skills.",
-    },
-    {
-      title: "Civil Defence Volunteer",
-      company: "Civil Defence",
-      period: "Volunteer Service",
-      description: "I served with the Civil Defence, working in emergency response, public safety, and field teamwork. It shows discipline, courage, and the ability to stay composed in critical situations.",
     },
   ];
 
