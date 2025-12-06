@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
+
+    --popover: 142 76% 15%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 100%;
+    --secondary-foreground: 0 0% 0%;
+
+    --muted: 142 40% 10%;
+    --muted-foreground: 0 0% 70%;
+
+    --accent: 142 76% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 142 40% 20%;
+    --input: 142 40% 20%;
+    --ring: 142 76% 45%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 5%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 142 76% 36%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 142 40% 15%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 142 40% 20%;
+    --sidebar-ring: 142 76% 45%;
+  }
+
+  .dark {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
+
+    --popover: 142 76% 15%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 100%;
+    --secondary-foreground: 0 0% 0%;
+
+    --muted: 142 40% 10%;
+    --muted-foreground: 0 0% 70%;
+
+    --accent: 142 76% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 142 40% 20%;
+    --input: 142 40% 20%;
+    --ring: 142 76% 45%;
+    --sidebar-background: 0 0% 5%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 142 76% 36%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 142 40% 15%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 142 40% 20%;
+    --sidebar-ring: 142 76% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@keyframes gradient-shift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
